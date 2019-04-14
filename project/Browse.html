@@ -1,0 +1,1141 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Browse</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top main-menu">
+        <a href="#" class="navbar-brand order-md-first">LOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="mainNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item homeLink">
+                    <a class="nav-link" href="/">
+                        <span aria-hidden="true" class=" fa fa-spacer-right fa-home"></span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Collections</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+        <div style="" class="search-container">
+            <div class="container-fluid" style="">
+                <div class="row justify-content-md-left sub-search-container">
+                    <div class="col-md-12">
+                        <div class="search-filter-container">
+                            <div class="btn-primary mr-2 mb-2 loc-filter"></div>
+                            <div class="btn-primary mr-2 mb-2 time-filter" ></div>
+                            <div class="btn-primary mr-2 mb-2 collections-filter" ></div>
+                        </div>
+                        <div class="pl-3 pr-3 search-input-container" >
+                            <input type="text" class="search-input-box">
+                            <button type="button" class="btn ml-1 mr-3 search-plus-button" ></button>
+                            <button type="button" class="btn btn-primary search-button" >Search</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="result-container" >
+            <div class="container-fluid">
+                <div class="row justify-content-md-left sub-result-container" >
+                    <div class="col-md-4">
+                        <div class="pr-5">
+                            <div class="container-fluid facet-container" >
+                                <div class="filter-title-container">
+                                    <h3 class="filter-title-main">Filters</h3>
+                                </div>
+                                <div>
+                                    <div class="sub-filter1-title">
+                                        <h5 >Types</h5>
+                                    </div>
+                                    <div>
+                                        <div class="checkbox sub-filter1-checkbox1" >
+                                            <label>
+                                                <input type="checkbox" value="" class="mr-2" >Manuscript (28)
+                                            </label>
+                                        </div>
+                                        <div class="checkbox sub-filter1-checkbox2">
+                                            <label>
+                                                <input type="checkbox" value="" class="mr-2">Photography (18)
+                                            </label>
+                                        </div>
+                                        <div class="checkbox sub-filter1-checkbox2">
+                                            <label>
+                                                <input type="checkbox" value="" class="mr-2">Typed Document (1)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="sub-filter2-title">
+                                        <h5>Creator</h5>
+                                    </div>
+                                    <div>
+                                        <div class="checkbox sub-filter1-checkbox1">
+                                            <label><input type="checkbox" value="" class="mr-2">Friedel, Charles (1832-1899) (37)</label>
+                                        </div>
+                                        <div class="sub-filter1-checkbox2">
+                                            <label><input type="checkbox" value="" class="mr-2">Doelter, Cornelio August (1)</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="sub-filter3-title">
+                                        <h5>Year Of Creation</h5>
+                                    </div>
+                                    <div>
+                                        <div class="checkbox sub-filter1-checkbox1">
+                                            <label><input type="checkbox" value="" class="mr-2">1801/1900 (23)</label>
+                                        </div>
+                                        <div class="sub-filter1-checkbox2">
+                                            <label><input type="checkbox" value="" class="mr-2">1876-05-12 (1)</label>
+                                        </div>
+                                        <div class="sub-filter1-checkbox2">
+                                            <label><input type="checkbox" value="" class="mr-2">1878-01-19 (1)</label>
+                                        </div>
+                                        <div class="sub-filter1-checkbox2">
+                                            <label><input type="checkbox" value="" class="mr-2">1886 (1)</label>
+                                        </div>
+                                        <div class="sub-filter1-checkbox2">
+                                            <label><input type="checkbox" value="" class="mr-2">1894-03 (1)</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="sub-filter4-title">
+                                        <h5>Source</h5>
+                                    </div>
+                                    <div>
+                                        <div class="checkbox sub-filter1-checkbox1">
+                                            <label>
+                                                <input type="checkbox" value="" class="mr-2">National School of Music of Paris.
+                                                Library (43)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 grid-container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <select class="grid-sort">
+                                    <option value="" selected>Sort By</option>
+                                    <option value="value2">value2</option>
+                                    <option value="value3">value3</option>
+                                    <option value="value4">value4</option>
+                                </select>
+
+                            </div>
+                            <div class="col-md-5"></div>
+                            <div class="col-md-2">
+                                <button type="button" class="btn" style="background-image:url('img/images/listview.png');background-repeat:no-repeat;background-position:center; width:42px;height:20px;float:right;margin-left:2%;"></button>
+                                <button type="button" class="btn" style="background-image:url('img/images/gridview.png');background-repeat:no-repeat;background-position:center; width:42px;height:20px;float:right;"></button>
+                            </div>
+                        </div>
+
+                        <!--Start of row 1-->
+                        <div class="row clickable grid-row-1" data-toggle="collapse" data-target="#sub_row_1" >
+                            <div class="colm-md-1"><p class="grid-col-1 ml-3">III.39</p></div>
+                            <div class="colm-md-6"><p class="grid-col-common grid-col-2">Alma redemptoris mater / Ave regina caelorum :<br />
+                                                                                            Tu quae genuisti / Gaude gloriosa</p></div>
+                            <div class="colm-md-3"><p class="grid-col-common grid-col-3">Gaffurius, Franchinus</p></div>
+                            <div class="colm-md-2"><p class="grid-col-common grid-col-4">ff. 013v–014r</p></div>
+                        </div>
+                        <div id="sub_row_1" class=" row collapse grid-sub-row pt-4">
+                            <div class="row container-fluid">
+                                <div class="col-md-1">
+                                    <p class="grid-sub-row-title">voices</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">4</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">genre</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">motet</p>
+                                    </div>
+                                    <p class="grid-sub-row-title">part of cycle</p>
+                                    <div class="grid-sub-row-fields pl-3" style="width:218%;">
+                                        <p class="grid-sub-row-content pl-1">
+                                            http://www.motetcycles.ch/cycle/408
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">main rubric</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">post Elevationem</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-md-5">
+                                    <p class="grid-sub-row-title">attribution notes</p>
+                                    <div class="grid-sub-row-fields pl-3 pb-2">
+                                        <p class="grid-sub-row-content pl-1">
+                                            I-Rvat Capp. Sist. 46 (attribution at <br />
+                                            the beginning of “O genitrix”, see further notes)
+                                        </p>
+                                        <div style="height:1.7em;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">concordances in the Libroni</p>
+                                    <div class="grid-sub-row-fields pl-3" style="height:8.3em;">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd [4], ff. 133v-134r (=IV.22)</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="grid-sub-row-title">concordances elsewhere</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">B-Br 228, ff. 47v-48r; CH-SGs 463 (“Tschudi Liederbuch”), no. 102; E-Bbc M 454 (“Cancionero musical de <br />
+                                                                             Barcelona”), ff. 130v-131r; I-Fn MS Banco Rari 229, ff. 161v-162r; I-Fn Magl. XIX.178, ff. 72v-73r (Gaspar); <br />
+                                                                             PL-Wu 2016, ff. 10v-11r; USWc M2.1.M6 Case (“Wolffheim Fragment”), ff. 86v-87v (incomplete)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">MS Inventory</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd1/0007ra</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">modern editions</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">NJE 3.1, 2-29</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition (text)</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum TEXT</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end of row 1-->
+
+                        <div class="row clickable grid-row-common" data-toggle="collapse" data-target="#sub_row_2">
+                            <div class="colm-md-1"><p class="grid-col-1 ml-3">III.40 </p></div>
+                            <div class="colm-md-6">
+                                <p class="grid-col-common grid-col-2">
+                                    Gaude virgo gloriosa
+                                </p>
+                            </div>
+                            <div class="colm-md-3"><p class="grid-col-common grid-col-3">Compère, Loyset </p></div>
+                            <div class="colm-md-2"><p class="grid-col-common grid-col-4">ff. 014v–015r </p></div>
+                        </div>
+                        <div id="sub_row_2" class=" row collapse grid-sub-row pt-4">
+                            <div class="row container-fluid">
+                                <div class="col-md-1">
+                                    <p class="grid-sub-row-title">voices</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">4</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">genre</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">motet</p>
+                                    </div>
+                                    <p class="grid-sub-row-title">part of cycle</p>
+                                    <div class="grid-sub-row-fields pl-3" style="width:218%;">
+                                        <p class="grid-sub-row-content pl-1">
+                                            http://www.motetcycles.ch/cycle/408
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">main rubric</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">post Elevationem</p>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-5">
+                                    <p class="grid-sub-row-title">attribution notes</p>
+                                    <div class="grid-sub-row-fields pl-3 pb-2">
+                                        <p class="grid-sub-row-content pl-1">
+                                            I-Rvat Capp. Sist. 46 (attribution at <br />
+                                            the beginning of “O genitrix”, see further notes)
+                                        </p>
+                                        <div style="height:1.7em;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">concordances in the Libroni</p>
+                                    <div class="grid-sub-row-fields pl-3" style="height:8.3em;">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd [4], ff. 133v-134r (=IV.22)</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="grid-sub-row-title">concordances elsewhere</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">
+                                            B-Br 228, ff. 47v-48r; CH-SGs 463 (“Tschudi Liederbuch”), no. 102; E-Bbc M 454 (“Cancionero musical de <br />
+                                            Barcelona”), ff. 130v-131r; I-Fn MS Banco Rari 229, ff. 161v-162r; I-Fn Magl. XIX.178, ff. 72v-73r (Gaspar); <br />
+                                            PL-Wu 2016, ff. 10v-11r; USWc M2.1.M6 Case (“Wolffheim Fragment”), ff. 86v-87v (incomplete)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">MS Inventory</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd1/0007ra</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">modern editions</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">NJE 3.1, 2-29</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition (text)</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum TEXT</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end of row 2-->
+
+                        <div class="row clickable grid-row-common" data-toggle="collapse" data-target="#sub_row_3" >
+                            <div class="colm-md-1"><p class="grid-col-1 ml-3">III.41</p></div>
+                            <div class="colm-md-6">
+                                <p class="grid-col-common grid-col-2">
+                                    Deus creator omnium
+                                </p>
+                            </div>
+                            <div class="colm-md-3"><p class="grid-col-common grid-col-3">Gaffurius, Franchinus</p></div>
+                            <div class="colm-md-2"><p class="grid-col-common grid-col-4">ff. 016v–017r</p></div>
+                        </div>
+                        <div id="sub_row_3" class=" row collapse grid-sub-row pt-4">
+                            <div class="row container-fluid">
+                                <div class="col-md-1">
+                                    <p class="grid-sub-row-title">voices</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">4</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">genre</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">motet</p>
+                                    </div>
+                                    <p class="grid-sub-row-title">part of cycle</p>
+                                    <div class="grid-sub-row-fields pl-3" style="width:218%;">
+                                        <p class="grid-sub-row-content pl-1">
+                                            http://www.motetcycles.ch/cycle/408
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">main rubric</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">post Elevationem</p>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-5">
+                                    <p class="grid-sub-row-title">attribution notes</p>
+                                    <div class="grid-sub-row-fields pl-3 pb-2">
+                                        <p class="grid-sub-row-content pl-1">
+                                            I-Rvat Capp. Sist. 46 (attribution at <br />
+                                            the beginning of “O genitrix”, see further notes)
+                                        </p>
+                                        <div style="height:1.7em;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">concordances in the Libroni</p>
+                                    <div class="grid-sub-row-fields pl-3" style="height:8.3em;">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd [4], ff. 133v-134r (=IV.22)</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="grid-sub-row-title">concordances elsewhere</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">
+                                            B-Br 228, ff. 47v-48r; CH-SGs 463 (“Tschudi Liederbuch”), no. 102; E-Bbc M 454 (“Cancionero musical de <br />
+                                            Barcelona”), ff. 130v-131r; I-Fn MS Banco Rari 229, ff. 161v-162r; I-Fn Magl. XIX.178, ff. 72v-73r (Gaspar); <br />
+                                            PL-Wu 2016, ff. 10v-11r; USWc M2.1.M6 Case (“Wolffheim Fragment”), ff. 86v-87v (incomplete)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">MS Inventory</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd1/0007ra</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">modern editions</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">NJE 3.1, 2-29</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition (text)</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum TEXT</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end of row 3-->
+                        <div class="row clickable grid-row-common" data-toggle="collapse" data-target="#sub_row_4">
+                            <div class="colm-md-1"><p class="grid-col-1 ml-3">III.42</p></div>
+                            <div class="colm-md-6">
+                                <p class="grid-col-common grid-col-2">
+                                    Tu thronus es Salomonis : Salve mater pietatis : <br />
+                                    Lux eclipsim nesciens
+                                </p>
+                            </div>
+                            <div class="colm-md-3"><p class="grid-col-common grid-col-3">Compère, Loyset </p></div>
+                            <div class="colm-md-2"><p class="grid-col-common grid-col-4">ff. 017v–018r </p></div>
+                        </div>
+                        <div id="sub_row_4" class=" row collapse grid-sub-row pt-4">
+                            <div class="row container-fluid">
+                                <div class="col-md-1">
+                                    <p class="grid-sub-row-title">voices</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">4</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">genre</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">motet</p>
+                                    </div>
+                                    <p class="grid-sub-row-title">part of cycle</p>
+                                    <div class="grid-sub-row-fields pl-3" style="width:218%;">
+                                        <p class="grid-sub-row-content pl-1">
+                                            http://www.motetcycles.ch/cycle/408
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">main rubric</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">post Elevationem</p>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-5">
+                                    <p class="grid-sub-row-title">attribution notes</p>
+                                    <div class="grid-sub-row-fields pl-3 pb-2">
+                                        <p class="grid-sub-row-content pl-1">
+                                            I-Rvat Capp. Sist. 46 (attribution at <br />
+                                            the beginning of “O genitrix”, see further notes)
+                                        </p>
+                                        <div style="height:1.7em;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">concordances in the Libroni</p>
+                                    <div class="grid-sub-row-fields pl-3" style="height:8.3em;">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd [4], ff. 133v-134r (=IV.22)</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="grid-sub-row-title">concordances elsewhere</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">
+                                            B-Br 228, ff. 47v-48r; CH-SGs 463 (“Tschudi Liederbuch”), no. 102; E-Bbc M 454 (“Cancionero musical de <br />
+                                            Barcelona”), ff. 130v-131r; I-Fn MS Banco Rari 229, ff. 161v-162r; I-Fn Magl. XIX.178, ff. 72v-73r (Gaspar); <br />
+                                            PL-Wu 2016, ff. 10v-11r; USWc M2.1.M6 Case (“Wolffheim Fragment”), ff. 86v-87v (incomplete)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">MS Inventory</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd1/0007ra</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">modern editions</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">NJE 3.1, 2-29</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition (text)</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum TEXT</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end of row 4-->
+
+                        <div class="row clickable grid-row-common" data-toggle="collapse" data-target="#sub_row_5">
+                            <div class="colm-md-1"><p class="grid-col-1 ml-3">III.43</p></div>
+                            <div class="colm-md-6">
+                                <p class="grid-col-common grid-col-2">
+                                    Alma redemptoris mater / Ave regina caelorum : <br />
+                                    Tu quae genuisti / Gaude gloriosa
+                                </p>
+                            </div>
+                            <div class="colm-md-3"><p class="grid-col-common grid-col-3">Gaffurius, Franchinus</p></div>
+                            <div class="colm-md-2"><p class="grid-col-common grid-col-4">ff. 019v–014r </p></div>
+                        </div>
+                        <div id="sub_row_5" class=" row collapse grid-sub-row pt-4">
+                            <div class="row container-fluid">
+                                <div class="col-md-1">
+                                    <p class="grid-sub-row-title">voices</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">4</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">genre</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">motet</p>
+                                    </div>
+                                    <p class="grid-sub-row-title">part of cycle</p>
+                                    <div class="grid-sub-row-fields pl-3" style="width:218%;">
+                                        <p class="grid-sub-row-content pl-1">
+                                            http://www.motetcycles.ch/cycle/408
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">main rubric</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">post Elevationem</p>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-5">
+                                    <p class="grid-sub-row-title">attribution notes</p>
+                                    <div class="grid-sub-row-fields pl-3 pb-2">
+                                        <p class="grid-sub-row-content pl-1">
+                                            I-Rvat Capp. Sist. 46 (attribution at <br />
+                                            the beginning of “O genitrix”, see further notes)
+                                        </p>
+                                        <div style="height:1.7em;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">concordances in the Libroni</p>
+                                    <div class="grid-sub-row-fields pl-3" style="height:8.3em;">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd [4], ff. 133v-134r (=IV.22)</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="grid-sub-row-title">concordances elsewhere</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">
+                                            B-Br 228, ff. 47v-48r; CH-SGs 463 (“Tschudi Liederbuch”), no. 102; E-Bbc M 454 (“Cancionero musical de <br />
+                                            Barcelona”), ff. 130v-131r; I-Fn MS Banco Rari 229, ff. 161v-162r; I-Fn Magl. XIX.178, ff. 72v-73r (Gaspar); <br />
+                                            PL-Wu 2016, ff. 10v-11r; USWc M2.1.M6 Case (“Wolffheim Fragment”), ff. 86v-87v (incomplete)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">MS Inventory</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd1/0007ra</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">modern editions</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">NJE 3.1, 2-29</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition (text)</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum TEXT</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end of row 5-->
+
+                        <div class="row clickable grid-row-common" data-toggle="collapse" data-target="#sub_row_6">
+                            <div class="colm-md-1"><p class="grid-col-1 ml-3">III.44</p></div>
+                            <div class="colm-md-6">
+                                <p class="grid-col-common grid-col-2">
+                                    Gaude virgo gloriosa
+                                </p>
+                            </div>
+                            <div class="colm-md-3"><p class="grid-col-common grid-col-3">Compère, Loyset </p></div>
+                            <div class="colm-md-2"><p class="grid-col-common grid-col-4">ff. 020v–015r </p></div>
+                        </div>
+                        <div id="sub_row_6" class=" row collapse grid-sub-row pt-4">
+                            <div class="row container-fluid">
+                                <div class="col-md-1">
+                                    <p class="grid-sub-row-title">voices</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">4</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">genre</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">motet</p>
+                                    </div>
+                                    <p class="grid-sub-row-title">part of cycle</p>
+                                    <div class="grid-sub-row-fields pl-3" style="width:218%;">
+                                        <p class="grid-sub-row-content pl-1">
+                                            http://www.motetcycles.ch/cycle/408
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">main rubric</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">post Elevationem</p>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-5">
+                                    <p class="grid-sub-row-title">attribution notes</p>
+                                    <div class="grid-sub-row-fields pl-3 pb-2">
+                                        <p class="grid-sub-row-content pl-1">
+                                            I-Rvat Capp. Sist. 46 (attribution at <br />
+                                            the beginning of “O genitrix”, see further notes)
+                                        </p>
+                                        <div style="height:1.7em;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">concordances in the Libroni</p>
+                                    <div class="grid-sub-row-fields pl-3" style="height:8.3em;">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd [4], ff. 133v-134r (=IV.22)</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="grid-sub-row-title">concordances elsewhere</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">
+                                            B-Br 228, ff. 47v-48r; CH-SGs 463 (“Tschudi Liederbuch”), no. 102; E-Bbc M 454 (“Cancionero musical de <br />
+                                            Barcelona”), ff. 130v-131r; I-Fn MS Banco Rari 229, ff. 161v-162r; I-Fn Magl. XIX.178, ff. 72v-73r (Gaspar); <br />
+                                            PL-Wu 2016, ff. 10v-11r; USWc M2.1.M6 Case (“Wolffheim Fragment”), ff. 86v-87v (incomplete)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">MS Inventory</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd1/0007ra</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">modern editions</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">NJE 3.1, 2-29</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition (text)</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum TEXT</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end of row 6-->
+
+                        <div class="row clickable grid-row-common" data-toggle="collapse" data-target="#sub_row_7">
+                            <div class="colm-md-1"><p class="grid-col-1 ml-3">III.45</p></div>
+                            <div class="colm-md-6">
+                                <p class="grid-col-common grid-col-2">
+                                    Deus creator omnium
+                                </p>
+                            </div>
+                            <div class="colm-md-3"><p class="grid-col-common grid-col-3">Gaffurius, Franchinus</p></div>
+                            <div class="colm-md-2"><p class="grid-col-common grid-col-4">ff. 021v–017r</p></div>
+                        </div>
+                        <div id="sub_row_7" class=" row collapse grid-sub-row pt-4">
+                            <div class="row container-fluid">
+                                <div class="col-md-1">
+                                    <p class="grid-sub-row-title">voices</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">4</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">genre</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">motet</p>
+                                    </div>
+                                    <p class="grid-sub-row-title">part of cycle</p>
+                                    <div class="grid-sub-row-fields pl-3" style="width:218%;">
+                                        <p class="grid-sub-row-content pl-1">
+                                            http://www.motetcycles.ch/cycle/408
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">main rubric</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">post Elevationem</p>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-5">
+                                    <p class="grid-sub-row-title">attribution notes</p>
+                                    <div class="grid-sub-row-fields pl-3 pb-2">
+                                        <p class="grid-sub-row-content pl-1">
+                                            I-Rvat Capp. Sist. 46 (attribution at <br />
+                                            the beginning of “O genitrix”, see further notes)
+                                        </p>
+                                        <div style="height:1.7em;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">concordances in the Libroni</p>
+                                    <div class="grid-sub-row-fields pl-3" style="height:8.3em;">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd [4], ff. 133v-134r (=IV.22)</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="grid-sub-row-title">concordances elsewhere</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">
+                                            B-Br 228, ff. 47v-48r; CH-SGs 463 (“Tschudi Liederbuch”), no. 102; E-Bbc M 454 (“Cancionero musical de <br />
+                                            Barcelona”), ff. 130v-131r; I-Fn MS Banco Rari 229, ff. 161v-162r; I-Fn Magl. XIX.178, ff. 72v-73r (Gaspar); <br />
+                                            PL-Wu 2016, ff. 10v-11r; USWc M2.1.M6 Case (“Wolffheim Fragment”), ff. 86v-87v (incomplete)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">MS Inventory</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd1/0007ra</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">modern editions</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">NJE 3.1, 2-29</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition (text)</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum TEXT</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end of row 7-->
+
+                        <div class="row clickable grid-row-common" data-toggle="collapse" data-target="#sub_row_8">
+                            <div class="colm-md-1"><p class="grid-col-1 ml-3">III.46</p></div>
+                            <div class="colm-md-6">
+                                <p class="grid-col-common grid-col-2">
+                                    Tu thronus es Salomonis : Salve mater pietatis :<br />
+                                    Lux eclipsim nesciens
+                                </p>
+                            </div>
+                            <div class="colm-md-3"><p class="grid-col-common grid-col-3">Compère, Loyset </p></div>
+                            <div class="colm-md-2"><p class="grid-col-common grid-col-4">ff. 022v–018r</p></div>
+                        </div>
+                        <div id="sub_row_8" class=" row collapse grid-sub-row pt-4">
+                            <div class="row container-fluid">
+                                <div class="col-md-1">
+                                    <p class="grid-sub-row-title">voices</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">4</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">genre</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">motet</p>
+                                    </div>
+                                    <p class="grid-sub-row-title">part of cycle</p>
+                                    <div class="grid-sub-row-fields pl-3" style="width:218%;">
+                                        <p class="grid-sub-row-content pl-1">
+                                            http://www.motetcycles.ch/cycle/408
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">main rubric</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">post Elevationem</p>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-5">
+                                    <p class="grid-sub-row-title">attribution notes</p>
+                                    <div class="grid-sub-row-fields pl-3 pb-2">
+                                        <p class="grid-sub-row-content pl-1">
+                                            I-Rvat Capp. Sist. 46 (attribution at <br />
+                                            the beginning of “O genitrix”, see further notes)
+                                        </p>
+                                        <div style="height:1.7em;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">concordances in the Libroni</p>
+                                    <div class="grid-sub-row-fields pl-3" style="height:8.3em;">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd [4], ff. 133v-134r (=IV.22)</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="grid-sub-row-title">concordances elsewhere</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">
+                                            B-Br 228, ff. 47v-48r; CH-SGs 463 (“Tschudi Liederbuch”), no. 102; E-Bbc M 454 (“Cancionero musical de <br />
+                                            Barcelona”), ff. 130v-131r; I-Fn MS Banco Rari 229, ff. 161v-162r; I-Fn Magl. XIX.178, ff. 72v-73r (Gaspar); <br />
+                                            PL-Wu 2016, ff. 10v-11r; USWc M2.1.M6 Case (“Wolffheim Fragment”), ff. 86v-87v (incomplete)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">MS Inventory</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd1/0007ra</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">modern editions</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">NJE 3.1, 2-29</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition (text)</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum TEXT</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end of row 8-->
+
+                        <div class="row clickable grid-row-common" data-toggle="collapse" data-target="#sub_row_9">
+                            <div class="colm-md-1"><p class="grid-col-1 ml-3">III.43</p></div>
+                            <div class="colm-md-6">
+                                <p class="grid-col-common grid-col-2">
+                                    Alma redemptoris mater / Ave regina caelorum :<br />
+                                    Tu quae genuisti / Gaude gloriosa
+                                </p>
+                            </div>
+                            <div class="colm-md-3"><p class="grid-col-common grid-col-3">Gaffurius, Franchinus</p></div>
+                            <div class="colm-md-2"><p class="grid-col-common grid-col-4">ff. 019v–014r</p></div>
+                        </div>
+                        <div id="sub_row_9" class=" row collapse grid-sub-row pt-4">
+                            <div class="row container-fluid">
+                                <div class="col-md-1">
+                                    <p class="grid-sub-row-title">voices</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">4</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">genre</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">motet</p>
+                                    </div>
+                                    <p class="grid-sub-row-title">part of cycle</p>
+                                    <div class="grid-sub-row-fields pl-3" style="width:218%;">
+                                        <p class="grid-sub-row-content pl-1">
+                                            http://www.motetcycles.ch/cycle/408
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">main rubric</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">post Elevationem</p>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-5">
+                                    <p class="grid-sub-row-title">attribution notes</p>
+                                    <div class="grid-sub-row-fields pl-3 pb-2">
+                                        <p class="grid-sub-row-content pl-1">
+                                            I-Rvat Capp. Sist. 46 (attribution at <br />
+                                            the beginning of “O genitrix”, see further notes)
+                                        </p>
+                                        <div style="height:1.7em;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">concordances in the Libroni</p>
+                                    <div class="grid-sub-row-fields pl-3" style="height:8.3em;">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd [4], ff. 133v-134r (=IV.22)</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="grid-sub-row-title">concordances elsewhere</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">
+                                            B-Br 228, ff. 47v-48r; CH-SGs 463 (“Tschudi Liederbuch”), no. 102; E-Bbc M 454 (“Cancionero musical de <br />
+                                            Barcelona”), ff. 130v-131r; I-Fn MS Banco Rari 229, ff. 161v-162r; I-Fn Magl. XIX.178, ff. 72v-73r (Gaspar); <br />
+                                            PL-Wu 2016, ff. 10v-11r; USWc M2.1.M6 Case (“Wolffheim Fragment”), ff. 86v-87v (incomplete)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">MS Inventory</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd1/0007ra</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">modern editions</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">NJE 3.1, 2-29</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition (text)</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum TEXT</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end of row 9-->
+
+                        <div class="row clickable grid-row-common" data-toggle="collapse" data-target="#sub_row_10">
+                            <div class="colm-md-1"><p class="grid-col-1 ml-3">III.44</p></div>
+                            <div class="colm-md-6">
+                                <p class="grid-col-common grid-col-2">
+                                    Gaude virgo gloriosa
+                                </p>
+                            </div>
+                            <div class="colm-md-3"><p class="grid-col-common grid-col-3">Compère, Loyset </p></div>
+                            <div class="colm-md-2"><p class="grid-col-common grid-col-4">ff. 020v–015r </p></div>
+                        </div>
+                        <div id="sub_row_10" class=" row collapse grid-sub-row pt-4">
+                            <div class="row container-fluid">
+                                <div class="col-md-1">
+                                    <p class="grid-sub-row-title">voices</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">4</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">genre</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">motet</p>
+                                    </div>
+                                    <p class="grid-sub-row-title">part of cycle</p>
+                                    <div class="grid-sub-row-fields pl-3" style="width:218%;">
+                                        <p class="grid-sub-row-content pl-1">
+                                            http://www.motetcycles.ch/cycle/408
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="grid-sub-row-title">main rubric</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">post Elevationem</p>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-5">
+                                    <p class="grid-sub-row-title">attribution notes</p>
+                                    <div class="grid-sub-row-fields pl-3 pb-2">
+                                        <p class="grid-sub-row-content pl-1">
+                                            I-Rvat Capp. Sist. 46 (attribution at <br />
+                                            the beginning of “O genitrix”, see further notes)
+                                        </p>
+                                        <div style="height:1.7em;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">concordances in the Libroni</p>
+                                    <div class="grid-sub-row-fields pl-3" style="height:8.3em;">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd [4], ff. 133v-134r (=IV.22)</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="grid-sub-row-title">concordances elsewhere</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">
+                                            B-Br 228, ff. 47v-48r; CH-SGs 463 (“Tschudi Liederbuch”), no. 102; E-Bbc M 454 (“Cancionero musical de <br />
+                                            Barcelona”), ff. 130v-131r; I-Fn MS Banco Rari 229, ff. 161v-162r; I-Fn Magl. XIX.178, ff. 72v-73r (Gaspar); <br />
+                                            PL-Wu 2016, ff. 10v-11r; USWc M2.1.M6 Case (“Wolffheim Fragment”), ff. 86v-87v (incomplete)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row container-fluid">
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">MS Inventory</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">I-Mfd1/0007ra</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <p class="grid-sub-row-title">modern editions</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">NJE 3.1, 2-29</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <p class="grid-sub-row-title">digital edition (text)</p>
+                                    <div class="grid-sub-row-fields pl-3">
+                                        <p class="grid-sub-row-content pl-1">XYZ Lore ipsum TEXT</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end of row 10-->
+
+
+
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    <!-- Footer -->
+        <div class="container-fluid footer-container">
+            <p class="footer-content">
+                &copy; 2019 Digital Library.All rights reserved.
+            </p>
+        </div>
+    <!-- Footer -->
+</body>
+</html>

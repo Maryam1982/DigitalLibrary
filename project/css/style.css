@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+    font-family: Roboto, 'Roboto Slab', 'Roboto Condensed';
+}
+
+.search-container {
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.sub-search-container {
+    margin-left: 10px;
+}
+.search-filter-container {
+    float: left;
+}
+.loc-filter {
+    /*background-color: red;*/
+    width: 112px;
+    height: 108px;
+    background-image: url('../img/images/locFilter.jpg');
+    background-position: center;
+    float: left;
+}
+.time-filter {
+    /*background-color: green;*/
+    width: 112px;
+    height: 108px;
+    background-image: url('../img/images/timeFilter.jpg');
+    background-position: center;
+    float: left;
+}
+.collections-filter {
+    /*background-color: blue;*/
+    width: 112px;
+    height: 108px;
+    background-image: url('../img/images/collectionsFilter.jpg');
+    background-position: center;
+    float: left;
+}
+.search-input-container {
+    background-color: #0098db;
+    float: left;
+    width: 68%;
+}
+.search-input-box {
+    background-color: rgb(255, 255, 255);
+    width: 78%;
+    height: 45px;
+    float: left;
+    margin-top: 32px;
+}
+.search-plus-button {
+    margin-top: 37px;
+    margin-bottom: 36px;
+    background-image: url('../img/images/plus.png');
+    width: 35px;
+    height: 35px;
+    background-color: #0098db;
+    float: left;
+}
+.search-button {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 120px;
+    height: 45px;
+    z-index: 94;
+    margin-top: 32px;
+    margin-bottom: 31px;
+    float: left;
+}
+.result-container {
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 136px;
+}
+.sub-result-container {
+    margin-left: 10px;
+}
+.facet-container {
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(216, 217, 218);
+    background-color: rgb(255, 255, 255);
+}
+.filter-title-container {
+    background-image: url('../img/images/title.jpg');
+    background-position: center;
+}
+.filter-title-main {
+    text-align: center;
+    margin-top: 3rem;
+}
+.sub-filter1-title {
+    background-image: url('../img/images/title2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sub-filter1-title h5 {
+    text-align: left;
+    margin-top: 5rem;
+}
+.sub-filter1-checkbox1 {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    vertical-align: central;
+}
+.sub-filter1-checkbox1 label input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(216, 217, 218);
+    background-color: rgb(255, 255, 255);
+    width: 23px;
+    height: 23px;
+    z-index: 311;
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+.sub-filter1-checkbox2 {
+    margin-left: 2rem;
+    vertical-align: central;
+}
+.sub-filter1-checkbox2 label input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(216, 217, 218);
+    background-color: rgb(255, 255, 255);
+    width: 23px;
+    height: 23px;
+    z-index: 311;
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+.sub-filter2-title {
+    background-image: url('../img/images/title3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sub-filter2-title h5 {
+    text-align: left;
+    margin-top: 3rem;
+}
+.sub-filter3-title {
+    background-image: url('../img/images/title4.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.sub-filter3-title h5 {
+    text-align: left;
+    margin-top: 3rem;
+}
+.sub-filter4-title {
+    background-image: url('../img/images/title4.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.sub-filter4-title h5 {
+    text-align: left;
+    margin-top: 3rem;
+}
+.grid-container {
+    /*/*background-color: aquamarine;*/
+    margin-left: -50px;
+}
+.grid-sort {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1400px;
+    height: 2054px;
+    z-index: 325;
+}
+
+.Shape_7 {
+    background-color: rgb(99, 99, 99);
+    position: absolute;
+    left: 813px;
+    top: 459px;
+    width: 20px;
+    height: 12px;
+    z-index: 324;
+}
+
+.Sort_By {
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(99, 99, 99);
+    line-height: 1.375;
+    text-align: left;
+    position: absolute;
+    left: 425.25px;
+    top: 475.313px;
+    z-index: 323;
+}
+
+.grid-sort {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(216, 217, 218);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 40px;
+}
+.grid-col-1 {
+    font-size: 17px;
+    font-family: "Roboto Condensed";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.294;
+    text-align: left;
+}
+.grid-col-common {
+
+    font-size: 17px;
+    font-family: "Roboto Condensed";
+    color: rgb(51, 51, 51);
+    line-height: 1.294;
+    text-align: left;
+    margin-left:1em;
+}
+.grid-col-2 {
+    margin-left: 2em;
+}
+.grid-col-3 {
+    margin-left: 7em;
+}
+.grid-col-4 {
+    margin-left: 3em;
+}
+.grid-sub-row {
+    background-color: rgb(215, 234, 249);
+}
+.grid-sub-row-title {
+    font-size: 12px;
+    font-family: "Roboto Condensed";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.833;
+    text-align: left;
+}
+.grid-sub-row-fields {
+    background-color: rgb(255, 255, 255);
+    /*margin-top:0.2em;*/
+}
+.grid-sub-row-content {
+    font-size: 15px;
+    font-family: "Roboto Condensed";
+    color: rgb(51, 51, 51);
+    line-height: 1.467;
+    text-align: left;
+}
+.grid-row-1 {
+    margin-top: 4%;
+    font-family: Roboto Condensed;
+    background-color: rgb(246, 246, 246);
+    padding-top: 0.5em;
+}
+.grid-row-common {
+    font-family: Roboto Condensed;
+    background-color: rgb(246, 246, 246);
+    margin-top:0.3em;
+    padding-top:0.5em;
+}
+.footer-container {
+    background-color: rgb(0, 0, 0);
+    margin-top: 10em;
+    height: 5em;
+    text-align: center;
+    padding-top: 3em;
+}
+.footer-content {
+    font-size: 12px;
+    font-family: 'Roboto';
+    color: rgb(255, 255, 255);
+    line-height: 1.833;
+    text-align: center;
+}
